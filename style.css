@@ -1,21 +1,38 @@
 body {
-    font-family: sans-serif;
-    line-height: 1.5;
-  
-    background-color: #f9f9f9;
-    color: #333333;
-  
-    width: 980px;
+    width: 700px;
     margin: 0 auto;
+    padding: 100px 0;
+  
+    font-family: serif;
+  
+    background-color: #eee;
+  }
+  
+  h1,h2,h3,h4 {
+    font-weight: normal;
+    text-align: center;
+    color: #646464;
   }
   
   h1 {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 70px;
   }
   
-  main > h2 {
-    text-align: center;
-    font-size: 25px;
+  h2 {
+    font-size: 40px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  p {
+    text-align: justify;
+    font-size: 16px;
+    color: #333;
   }
